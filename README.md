@@ -19,6 +19,8 @@ We believe in verifiable builds. You can use this source code to compile and com
 
 For automated verification on platforms like Sourcify, use the `metadata.json` file provided for each version where available.
 
+**A Note on SPDX License Identifiers:** To ensure a perfect bytecode match for verification, the source files are provided exactly as they were at deployment, which may include an `UNLICENSED` identifier in the comments. However, all code in this repository is officially released to the public under the terms of the **MIT License** (see the `LICENSE` file).
+
 *   **V1 & NFT Contract:** The source code and metadata in this repository are the exact versions that were deployed. They will compile to matching bytecode and can be fully verified.
 
 *   **V2 Contract:** The source code provided is the exact version deployed. We are in the process of locating the corresponding `metadata.json` for easy verification.
