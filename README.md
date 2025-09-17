@@ -23,7 +23,7 @@ For automated verification on platforms like Sourcify, use the `metadata.json` f
 
 *   **V1 & NFT Contract:** The source code and metadata in this repository are the exact versions that were deployed. They will compile to matching bytecode and can be fully verified.
 
-*   **V2 Contract:** The source code provided is the exact version deployed. We are in the process of locating the corresponding `metadata.json` for easy verification.
+*   **V2 Contract:** **Important Note:** The exact `.sol` source file for the deployed V2 contract has unfortunately been lost due to a version control oversight. The core logic of V2 is inherited by V3, whose source code is available for review. We have learned from this mistake and have since implemented stricter version control for all future deployments.
 
 *   **V3 Contract:** **Important Note:** The source code for V3 provided here includes minor, non-critical modifications (e.g., making some functions `virtual` for future upgradeability) that were made *after* the initial deployment. As a result, a direct compilation of this code **will not produce matching bytecode**. We are publishing it for full transparency of the core logic. The fundamental game mechanics and fund handling logic remain identical to what is on-chain. We have learned from this and all future upgrades will be deployed from a version-controlled, tagged commit.
 
